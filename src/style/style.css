@@ -36,6 +36,10 @@ nav .logo {
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
     letter-spacing: 3px;
+    background-image: linear-gradient(to right, #83C6E7, #508AB9);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
 }
 nav ul li a:hover{
     color: #b7d6e6;
@@ -86,7 +90,7 @@ nav ul li a:hover{
 }
 /* Responsive BreakPoints */
 /* Tablet */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1024px) {
     nav ul {
         width: 60%;
     }
