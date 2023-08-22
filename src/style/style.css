@@ -7,6 +7,7 @@ font-family: 'Work Sans', sans-serif; */
 body {
     font-family: 'Work Sans', sans-serif;
     height: 1000px;
+    overflow-x: hidden;
 }
 nav{
     display: flex;
@@ -33,6 +34,7 @@ nav ul li a {
     text-decoration: none;
 }
 nav .logo {
+    display: flex;
     font-family: 'Share Tech Mono', monospace;
     font-size: 20px;
     letter-spacing: 3px;
@@ -40,6 +42,12 @@ nav .logo {
     -webkit-background-clip: text;
     color: transparent;
     background-clip: text;
+}
+nav .logo img{
+    margin-right: 5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 13px;
 }
 nav ul li a:hover{
     color: #b7d6e6;
@@ -105,11 +113,19 @@ nav ul li a:hover{
         right: 0;
         top: 0;
         height: 100vh;
+        width: 50%;
         align-items: center;
         justify-content: space-evenly;
         flex-direction: column;
         z-index: -1;
         margin-top: 30px;
         background-color: rgb(53, 51, 51);
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+    nav ul.slide{
+        opacity: 1;
+        transform: translateX(0);
     }
 }
