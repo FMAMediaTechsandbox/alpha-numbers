@@ -8,6 +8,7 @@ font-family: 'Work Sans', sans-serif; */
     font-family: 'Work Sans', sans-serif;
     height: 1000px;
     overflow-x: hidden;
+    background-color: rgb(179, 174, 174);
 }
 nav{
     display: flex;
@@ -51,6 +52,35 @@ nav .logo img{
 }
 nav ul li a:hover{
     color: #b7d6e6;
+}
+.container-satu {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 60px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-bottom: 5px solid #508AB9;
+}
+.container-satu h1,
+.container-satu a {
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+}
+.container-satu p {
+    margin: 10px 0;
+}
+
+.container-satu a {
+    margin-top: auto;
+    align-self: flex-end;
+    text-decoration: none;
+    background-color: #508AB9;
+    color: white;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #83C6E7, #508AB9);
+    padding: 5px;
 }
 .menu-toggle{
     display: none;
