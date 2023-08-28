@@ -97,7 +97,7 @@ nav ul li a:hover{
 .row-1 {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 25px;
     margin-bottom: 20px;
     margin-top: 20px;
 }
@@ -115,6 +115,31 @@ nav ul li a:hover{
     font-family: 'Work Sans', sans-serif;
     list-style: none;
 }
+.card-button{
+    cursor:pointer;
+    margin: 10px 0;
+    text-align: center;
+    font-family: 'Share Tech Mono', monospace;
+    background-color: #508AB9;
+    color: white;
+    border: 1px solid transparent;
+    border-image: linear-gradient(to right, #83C6E7, #508AB9);
+    padding: 5px;
+    box-shadow:-2px -2px 6px gray, 2px 2px 4px black;
+}
+
+.card-button:hover{
+        color: #b7d6e6;
+        background-color:#337CCF;
+}
+
+.card-footer{
+    padding:1rem;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
 .harga{
     display: flex;
     flex-direction: column;
@@ -126,13 +151,34 @@ nav ul li a:hover{
     margin: 10px 0;
     font-family: 'Share Tech Mono', monospace;
 }
+
+
+
 .card-pricing{
     flex: 1;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+    max-width:230px;
     padding: 25px;
     border-radius: 5px;
     font-family: 'Work Sans', sans-serif;
     list-style: none;
+    box-shadow:-3px -3px 7px gray, 3px 3px 5px black;
 }
+
+.card-header{
+    min-height:2rem;
+    flex:1;
+    display:flex;
+    gap:20px;
+    justify-center:space-between;
+    align-items:center;
+    flex-direction:column;
+    margin-bottom:25px;
+}
+
+
 footer, .freepik-attribution{
     overflow: hidden;
     display: none;
