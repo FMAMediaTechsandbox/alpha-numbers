@@ -88,7 +88,7 @@ nav ul li a:hover{
     display: flex;
     flex-direction: column;
     padding: 20px;
-    border-bottom: 10px;
+    border-bottom: 5px solid #508AB9;
 }
 .fitur, h2, u{
     margin: 10px 0;
