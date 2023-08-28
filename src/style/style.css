@@ -90,7 +90,7 @@ nav ul li a:hover{
     padding: 20px;
     border-bottom: 5px solid #508AB9;
 }
-.fitur, h2, u{
+.fitur, h1, u{
     margin: 10px 0;
     font-family: 'Share Tech Mono', monospace;
 }
@@ -111,6 +111,24 @@ nav ul li a:hover{
     flex: 1;
     padding: 10px;
     text-align: center;
+    border-radius: 5px;
+    font-family: 'Work Sans', sans-serif;
+    list-style: none;
+}
+.harga{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 5px solid #508AB9;
+    box-sizing: border-box;
+}
+.harga, h1, u{
+    margin: 10px 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+.card-pricing{
+    flex: 1;
+    padding: 25px;
     border-radius: 5px;
     font-family: 'Work Sans', sans-serif;
     list-style: none;
