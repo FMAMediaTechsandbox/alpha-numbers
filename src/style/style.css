@@ -168,6 +168,13 @@ footer, .freepik-attribution{
     nav ul {
         width: 60%;
     }
+    .row-1, .row-2{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        margin: 10px 0;
+    }
 }
 /* Mobile */
 @media screen and (max-width: 576px) {
