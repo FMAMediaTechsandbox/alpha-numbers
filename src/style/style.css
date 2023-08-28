@@ -113,6 +113,7 @@ nav ul li a:hover{
     text-align: center;
     border-radius: 5px;
     font-family: 'Work Sans', sans-serif;
+    list-style: none;
 }
 footer, .freepik-attribution{
     overflow: hidden;
