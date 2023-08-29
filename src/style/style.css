@@ -6,7 +6,6 @@
 font-family: 'Work Sans', sans-serif; */
 .container {
     font-family: 'Work Sans', sans-serif;
-    height: 1000px;
     overflow-x: hidden;
     background-color: rgb(179, 174, 174);
 }
@@ -150,7 +149,7 @@ nav ul li a:hover{
     box-sizing: border-box;
 }
 .harga, h1, u{
-    margin: 10px 0;
+    margin: 0;
     font-family: 'Share Tech Mono', monospace;
 }
 .card-pricing{
@@ -192,8 +191,8 @@ nav ul li a:hover{
     flex: 1;
     display:flex;
     flex-direction:column;
-    justify-content: space-evenly;
-    max-width:230px;
+    justify-content: space-between;
+    max-width:300px;
     padding: 25px;
     border-radius: 5px;
     text-align: center;
