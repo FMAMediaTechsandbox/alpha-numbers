@@ -157,7 +157,7 @@ nav ul li a:hover{
     display:flex;
     flex-direction:column;
     justify-content:space-between;
-    max-width:230px;
+    max-width:300px;
     padding: 25px;
     border-radius: 5px;
     font-family: 'Work Sans', sans-serif;
@@ -203,6 +203,16 @@ nav ul li a:hover{
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.partner{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border-bottom: 5px solid #508AB9;
+    box-sizing: border-box;
+}
+.call-to-action-partner-button{
+    align-self: flex-end;
 }
 footer, .freepik-attribution{
     overflow: hidden;
