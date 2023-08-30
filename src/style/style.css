@@ -214,6 +214,66 @@ nav ul li a:hover{
 .call-to-action-partner-button{
     align-self: flex-end;
 }
+.contact {
+  background-color: #fff;
+  padding: 20px;
+  background-color: rgb(53, 51, 51);
+  color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 5px solid #508AB9;
+}
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.contact p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.contact-details {
+  display: flex;
+  flex-wrap: wrap;
+}
+.address {
+  flex: 1;
+  padding: 10px;
+  margin-left: 10px;
+}
+.address h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.contact-form {
+  flex: 1;
+  padding: 10px;
+}
+.contact-form form {
+  display: grid;
+  grid-gap: 10px;
+}
+.contact-form label {
+  font-size: 16px;
+}
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.contact-form button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.contact-form button:hover {
+  background-color: #0056b3;
+}
 footer, .freepik-attribution{
     overflow: hidden;
     display: none;

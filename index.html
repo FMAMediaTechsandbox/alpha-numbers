@@ -201,29 +201,37 @@
                 <button class="card-button">Klik disini agar mengetahui info lebih lanjut</button>
             </div>
         </div>
-        <div class="kontak">
-            <form action="" method="post">
-                <div class="name-client">
-                    <label for="name"></label>
-                    <input type="text" name="name" id="name" placeholder="Masukkan nama anda...">
+        <div class="contact">
+            <h2>Hubungi Kami</h2>
+            <p>Jika Anda memiliki pertanyaan atau ingin menghubungi kami, silakan isi formulir di bawah ini dan jelaskan pertanyaan anda.</p>
+            <div class="contact-details">
+                <div class="contact-form">
+                    <h3>Formulir Kontak</h3>
+                    <form action="#" method="post">
+                    <label for="name">Nama:</label>
+                    <input type="text" id="name" name="name" required>
+            
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="company">Perusahaan:</label>
+                    <input type="text" id="company" name="company" required>
+            
+                    <label for="message">Pesan:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+            
+                    <button type="submit">Kirim</button>
+                    </form>
                 </div>
-                <div class="email-client">
-                    <label for="email"></label>
-                    <input type="email" name="email" id="email" placeholder="Masukkan email anda...">
+                <div class="address">
+                    <h3>Alamat</h3>
+                    <address>
+                        Mariyinsky Palace <br>
+                        5A, Mykhaila Hrushevskoho St, Kyiv, Ukraine, 01008
+                    </address>
                 </div>
-                <div class="company-client">
-                    <label for="company"></label>
-                    <input type="text" name="company" id="company" placeholder="Masukkan nama perusahaan anda...">
-                </div>
-                <div class="message-client">
-                    <label for="message"></label>
-                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Masukkan pesan anda..."></textarea>
-                </div>
-                <div class="submit-button-client">
-                    <input type="submit" value="Kirim">
-                </div>
-            </form>
-        </div>
+            </div>
+          </div>
     </div>
 
     <footer>
