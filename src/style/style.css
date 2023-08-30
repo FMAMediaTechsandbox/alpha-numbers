@@ -221,7 +221,6 @@ nav ul li a:hover{
   color: white;
   border-radius: 5px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  border-bottom: 5px solid #508AB9;
 }
 .contact h1 {
   font-family: 'Share Tech Mono', monospace;
