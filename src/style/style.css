@@ -223,12 +223,13 @@ nav ul li a:hover{
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   border-bottom: 5px solid #508AB9;
 }
-.contact h2 {
-  font-size: 24px;
+.contact h1 {
+  font-family: 'Share Tech Mono', monospace;
   margin-bottom: 10px;
 }
 .contact p {
   font-size: 16px;
+  font-family: 'Work Sans', sans-serif;
   margin-bottom: 20px;
 }
 .contact-details {
@@ -242,6 +243,8 @@ nav ul li a:hover{
 }
 .address h3 {
   font-size: 18px;
+  margin-bottom: 5px;
+  font-family: 'Share Tech Mono', monospace;
   margin-bottom: 10px;
 }
 .contact-form {
@@ -252,8 +255,14 @@ nav ul li a:hover{
   display: grid;
   grid-gap: 10px;
 }
+.contact-form h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  font-family: 'Share Tech Mono', monospace;
+}
 .contact-form label {
-  font-size: 16px;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
 }
 .contact-form input,
 .contact-form textarea {
@@ -274,9 +283,10 @@ nav ul li a:hover{
 .contact-form button:hover {
   background-color: #0056b3;
 }
-footer, .freepik-attribution{
-    overflow: hidden;
-    display: none;
+.footer{
+    margin-top: 28px;
+    text-align: center;
+    background-color: rgb(53, 51, 51);
 }
 .menu-toggle{
     display: none;
