@@ -4,17 +4,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financial Statement Dashboard</title>
-    <link rel="stylesheet" href="../style/style.css">
+    <link rel="stylesheet" href="style/style-dashboard.css">
 </head>
 <body>
-    <div>
-        <canvas id="myChart"></canvas>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <img src="../image/Untitled Design (5).png" alt="image-logo">
+                <h4>AlphaNumber's&trade;</h4>
+            </div>
+            <ul>
+                <li><a href="#tentang-kami">Home</a></li>
+                <li><a href="#fitur">Fitur</a></li>
+                <li><a href="#harga">Harga</a></li>
+                <li><a href="#testimoni">Testimoni</a></li>
+                <li><a href="#partner">Partner</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Daftar</a></li>
+            </ul>
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+        <div class="chart-dashboard">
+            <canvas id="myChart"></canvas>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script>
         const ctx = document.getElementById('myChart');
         new Chart(ctx, {
-        type: 'bar',
+        type: 'line',
         data: {
             labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
             datasets: [{
