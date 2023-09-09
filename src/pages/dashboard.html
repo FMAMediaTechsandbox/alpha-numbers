@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Financial Statement Dashboard</title>
     <link rel="stylesheet" href="style/style-dashboard.css">
+    <link rel="Icon" href="../image/Untitled Design (6).png" alt>
 </head>
 <body>
     <div class="container">
         <nav>
             <div class="logo">
-                <img src="../image/Untitled Design (5).png" alt="image-logo">
+                <img src="../image/Untitled Design (6).png" alt="image-logo">
                 <h4>AlphaNumber's&trade;</h4>
             </div>
             <ul>
@@ -31,7 +32,13 @@
             </div>
         </nav>
         <div class="chart-dashboard">
+            <h5>Dashboard Pengeluaran dan Pemasukkan Keuangan Perusahaan Anda</h5>
             <canvas id="myChart"></canvas>
+        </div>
+        <div class="footer">
+            <footer>
+                <p id="copyright"></p>
+            </footer>
         </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
@@ -55,6 +62,18 @@
             }
         }
         });
+        // Menangkap class menu-toggle
+        const menuToggle = document.querySelector('.menu-toggle');
+        // Menangkap element nav dan ul
+        const nav = document.querySelector('nav ul');
+        // Menambahkan event ketika di klik maka tambahkan kelas slide, jika user klik lagi maka hapus class slide
+        menuToggle.addEventListener('click', () => { nav.classList.toggle('slide'); });
+        // Dapatkan elemen <p> dengan ID "copyright"
+        const copyrightElement = document.getElementById("copyright");
+        // Dapatkan tahun saat ini
+        const currentYear = new Date().getFullYear();
+        // Set teks pada elemen
+        copyrightElement.textContent = `Copyright © ${currentYear} FMA MEDIA TECHNOLOGIES. All rights reserved.`;
     </script>
 </body>
 </html>
