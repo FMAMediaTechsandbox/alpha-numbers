@@ -97,17 +97,25 @@ nav ul li a:hover {
 .container-dashboard-dan-input-data {
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   margin-top: 50px;
   box-sizing: border-box;
   padding: 20px;
 }
 .chart-dashboard {
-  width: 50%;
+  display:flex;
+  flex-direction: column;
+  justify-content:space-between;
+  flex: 1;
+  height: 100%;
+}
+.chart-title{
+  padding-bottom:1rem;
 }
 .pencatatan-transaksi {
-  width: 45%;
+  flex:1;
+  height: 100%;
   padding: 20px;
   border-radius: 10px;
   background-color: rgb(179, 174, 174);
@@ -121,14 +129,14 @@ nav ul li a:hover {
 }
 .pencatatan-transaksi input[type="text"],
 .pencatatan-transaksi input[type="number"] {
-  width: 100%; /* Lebar input mengisi seluruh width kontainer */
+  width: 96%;  /* Lebar input mengisi seluruh width kontainer */
   padding: 10px; /* Ruang di dalam input */
   margin-bottom: 10px; /* Ruang bawah antara input */
   border: 1px solid #ccc; /* Border ringan */
   border-radius: 5px; /* Sudut border terbulatkan */
 }
 .pencatatan-transaksi input[type="date"] {
-  width: 100%;
+  width: 96%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
